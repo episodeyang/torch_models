@@ -1,21 +1,21 @@
-# Learning Controllable Embeddings
+# Model Zoo for PyTorch Models
 
-> Code originally from Mohammad, Ge is trying to use this code to build something new.
+> Bunch of nice models simple and sweet
 
 ## ToDo
-- [ ] model
 
-## Environments
+- [ ] add LICENSE
 
-**`Pole`**, **`CartPole`**, and **`Plane`**
-> **`Arm`** environment is currently missing code.
+## Models
 
-- run [./run_interactive_sim.py](./run_interactive_sim.py) to see what the simulation is doing.
-- run [./generate_plane_data.py](./generate_plane_data.py) to make the datafiles, inside [./datasets](./datasets)
-- run [./what_is_data.py](./what_is_data.py) to visualize the datasets.
+- Multi-layer Perceptron VAE
+- ConvNet VAE
+- Multi-layer Percentron Classifier on MNIST
+- ConvNet on MNIST
 
+## To Run
 
+Just run the script directly. This way you can add a breakpoint anywhere and start debugging.
 
-
-
-
+Enjoy!
+-Ge
